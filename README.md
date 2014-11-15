@@ -12,4 +12,4 @@ can be installed on Firefox or Chrome as any user script, see the [documentation
 
 Elsewhere
 ------------
-*on [greasyfork.org](https://greasyfork.org/fr/scripts/6471-wikidata-links-enhancer)
+* on [greasyfork.org](https://greasyfork.org/fr/scripts/6471-wikidata-links-enhancer)
