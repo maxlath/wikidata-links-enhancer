@@ -17,13 +17,13 @@ var getLink = function () {
   }).first().attr('href');
 };
 
-var extratWikidataId = function (href) {
-  return href.split('wikidata.org/wiki/') [1]
+var extractWikidataId = function (href) {
+  return href.split('wikidata.org/wiki/')[1]
 };
 
 var addLinkAfterHeader = function (href) {
   if (href) {
-    var id = extratWikidataId(href);
+    var id = extractWikidataId(href);
     console.log('wikidata link found', href, id);
     $el = $(document.createElement('a')).attr('href', href).text(id);
     $('h1').next().prepend($el);
