@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name Wikidata Link
-// @namespace wikimedia
+// @name Wikidata Links Enhancer
+// @namespace maxlath
 // @description displays wikidata links under any wikimedia projects pages
 // @include *.wikipedia.org/*
 // @include *.wikisource.org/*
